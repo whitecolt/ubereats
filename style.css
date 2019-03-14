@@ -44,18 +44,11 @@ a {
   border: none;
 }
 
-.container {
-  padding-right: 4px !important;
-}
-
 .header_logo {
   margin-top: 31px;
 }
 
-.header_link {
-}
-
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .header_link {
     margin-left: 82px;
   }
@@ -82,7 +75,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .delivery_customer_name {
     display: inline-block;
     margin-left: 122px;
@@ -127,7 +120,7 @@ a {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .delivery_form_customer {
     font-size: 16px;
     width: 65px;
@@ -153,7 +146,7 @@ a {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .delivery_form_destination {
     font-size: 16px;
     width: 292px;
@@ -200,7 +193,7 @@ a {
 .header_buttons_sign {
   background-color: #ffffff;
   text-decoration: none;
-  margin-left: 44px;
+  margin-left: 40px;
   margin-right: 6px;
 }
 
@@ -227,7 +220,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .header_bag {
     margin-left: 31px;
   }
@@ -237,7 +230,7 @@ a {
   background-color: #f2f2f2;
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .product {
     background-color: #ffffff;
   }
@@ -292,7 +285,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .restourant {
     right: 654px;
     left: 51px;
@@ -426,7 +419,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .meal {
     padding-bottom: 80px;
   }
@@ -453,7 +446,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .meal_card {
     padding-left: 16px;
     margin-bottom: 49px;
@@ -546,7 +539,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .meal_photo {
     width: 170px;
     height: 160px;
@@ -565,7 +558,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .footer {
     margin-top: 0;
   }
@@ -687,16 +680,6 @@ a {
   margin-bottom: 23px;
 }
 
-/* .footer_info_text:last-child {
-  margin-bottom: 40px;
-}
-
-@media only screen and (min-width: 768px) {
-  .footer_info_text:last-child {
-    margin-bottom: 48px;
-  }
-} */
-
 .footer_content {
   border-bottom: 1px solid rgb(100%, 100%, 100%, 0.4);
   padding-bottom: 17px;
@@ -806,7 +789,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .footer_button_up {
     position: absolute;
     left: 940px;
