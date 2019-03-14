@@ -247,9 +247,9 @@ a {
 }
 
 .product_wrap {
-  position: relative;
-  background: url(./img/main.png) center center no-repeat;
-
+  background: url(./img/main.png);
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 256px;
 }
@@ -257,24 +257,23 @@ a {
 @media only screen and (min-width: 768px) {
   .product_wrap {
     background: url(./img/main_mid.png);
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 360px;
   }
 }
 
-@media only screen and (min-width: 1124px) {
+@media only screen and (min-width: 992px) {
   .product_wrap {
     background: url(./img/main_large.png);
-    width: 1124px;
-    height: 364px;
+    background-size: cover;
+    background-position: center;
   }
 }
 
 .restourant {
-  position: absolute;
-  top: 130px;
-  left: 8px;
-  right: 4px;
+  margin-top: 130px;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 49px;
