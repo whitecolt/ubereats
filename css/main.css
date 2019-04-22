@@ -1,0 +1,156 @@
+/* Search */
+
+.search {
+  margin-top: 25px;
+}
+
+.search__input {
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  border: none;
+  font-size: 13px;
+  line-height: 24px;
+  color: rgba(98, 98, 98, 0.5);
+  background: url("../img/search.png") no-repeat 0px;
+  background-size: 16px;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+}
+
+@media only screen and (min-width: 768px) {
+  .search__input {
+    background: url("../img/search_big.svg") no-repeat 0;
+    background-size: 22px;
+    font-size: 16px;
+  }
+}
+
+.location--mobile {
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .location--mobile {
+    display: none;
+  }
+}
+
+.location__form {
+  display: flex;
+}
+
+.location__label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+  font-size: 11px;
+}
+
+.location__time {
+  margin-top: 8px;
+  padding: 7px 15px;
+  font-size: 13px;
+  line-height: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  text-align: center;
+  text-align-last: center;
+  appearance: none;
+  -moz-appearance: none;
+  -ms-progress-appearance: none;
+  -webkit-appearance: none;
+}
+
+.location__adress {
+  margin-top: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 35px;
+  width: 207px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  font-size: 13px;
+  line-height: 24px;
+  background: url("../img/location.svg") no-repeat 10px;
+}
+
+/* Restaurans */
+
+.restaurans {
+  margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 992px) {
+  .restaurans {
+    margin-bottom: 100px;
+  }
+}
+
+.restaurans__city {
+  font-size: 22px;
+  line-height: 34px;
+  color: #1d1d1d;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .restaurans__city {
+    margin-top: 56px;
+  }
+}
+
+.restaurant__card {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.restaurant__link {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.restourant__card--none {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .restourant__card--none {
+    display: block;
+  }
+}
+
+.restaurant__image {
+  width: 304px;
+  height: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+  .restaurant__image {
+    width: 100%;
+    height: 256px;
+  }
+}
+
+.restaurant__title {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.restaurant__cousine {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+
+.restaurant__time {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 21px;
+}

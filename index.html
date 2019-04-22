@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
     <link
       rel="stylesheet"
@@ -20,6 +20,7 @@
    
     <header class="header" role="banner">
         <div class="container">
+        <div class="logo">
         <a href="#" class="header_link">
           <img
             src="img/logo.svg"
@@ -27,28 +28,18 @@
             class="header_logo"
           />
         </a>
+      </div>
+
+      <div class="location">
+      <form action="#" method="GET" class="location__">
+        <input type="text">
+      </form>
+    </div>
+
+      
 
 
-        <form action="#" method="GET" class="delivery_customer_name">
-          <input type="text" value="ASAP" class="delivery_form_customer">
-        
-         to
-        </form>
-         <form action="#" method="GET" class="delivery_customer_adress">
-         <input type="text" placeholder="ul. Bolshaya Dmitrovka,22" class="delivery_form_destination">
-        </form>
-        
-        <form action="#"  class="header_sign_form">
-          <button type="submit" class="header_buttons header_buttons_sign">
-            Sign In
-          </button>
-        </form>
-
-       <form action="#" class="header_reg_form">
-          <button class="header_buttons header_buttons_register">
-            Register
-          </button>
-        </form>
+      
         
 
         <a href="#" class="header_bag" >
